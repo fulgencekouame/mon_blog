@@ -1,0 +1,393 @@
+body{
+  background-color: rgb(206, 202, 202);
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+.recherche{
+  float:left;
+  margin-right: : 20px;
+  color: #ddd;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: #c9cccf; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: blue;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow:hidden;
+    width:100%;
+}
+
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: blue;
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(129, 78, 78);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#con{
+  margin-right: 50px;
+}
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+a svg{
+  transition:all .5s ease;
+
+   &:hover{
+    #transform:rotate(180deg);
+  }
+}
+
+#ico{
+  display: none;
+}
+
+.menu{
+  background: rgb(93, 102, 228);
+  display: none;
+  padding: 5px;
+  width: 320px;
+  /* @include border-radius(5px);
+
+  #transition: all 0.5s ease; */
+
+   a{
+    display: block;
+    color: #fff;
+    text-align : center;
+    padding : 10px 2px;
+    margin: 3px 0;
+    text-decoration: none;
+    background-color: #444;
+
+    &:nth-child(1){
+      margin-top: 0;
+      @include border-radius(3px 3px 0 0 );
+    }
+    &:nth-child(5){
+      margin-bottom: 0;
+      @include border-radius(0 0 3px 3px);
+    }
+
+    &:hover{
+      background: #555;
+    }
+  }
+}
+/* fin de menu */
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+carousel-caption h2{
+  margin-top: 200px;
+}
+/* .nav{
+  text-align: right;
+  padding-left: 100px;
+} */
+
+
+
+
+
+h3{
+    font-family: 'Poppins', sans-serif;
+}
+
+.social-box .box{
+    background: #FFF;
+    border-radius: 10px;
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.social-box .box:hover{
+   box-shadow: 0 0 100px orange;
+}
+
+.social-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.social-box .box .box-btn a{
+    text-decoration: none;
+    color: red;
+    font-size: 16px;
+}
+
+/* .fa{
+     color:#4183D7;
+} */
+
+.social-box{
+  background-color: #c6ccd0;
+  margin-bottom: 40px;
+}
+.article{
+  color: white;
+}
+
+.article h2{
+  font-family: forte;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 60px;
+  color: white;
+}
+
+.luxe{
+  text-align: center;
+}
+
+.how-section1{
+    margin-top:-15%;
+    padding: 10%;
+}
+.how-section1 h4{
+    color: orange;
+    font-weight: bold;
+    font-size: 30px;
+}
+.how-section1 .subheading{
+    color: #3931af;
+    font-size: 20px;
+}
+.how-section1 .row
+{
+    margin-top: 10%;
+}
+.how-img
+{
+    text-align: center;
+}
+.how-img img{
+    width: 100%;
+}
+
+.container{
+  background-color: white;
+}
+.container h2{
+  font-family: forte;
+  text-align: center;
+  }
+
+
+/*Contact sectiom*/
+.content-header{
+  font-family: 'Oleo Script', cursive;
+  color:#fcc500;
+  font-size: 45px;
+}
+
+.section-content{
+  text-align: center;
+
+}
+
+
+
+
+.button2 {
+  background-color: #008CBA; /* blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.container1{
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: orange;
+}
+
+
+#contact{
+
+    font-family: 'Teko', sans-serif;
+  padding-top: 60px;
+  width: 100%;
+  width: 100vw;
+  height: 550px;
+  background: #3a6186; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #3a6186 , #89253e); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #3a6186 , #89253e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color : #fff;
+}
+.contact-section{
+  padding-top: 40px;
+}
+.contact-section .col-md-6{
+  width: 50%;
+}
+
+.form-line{
+  border-right: 1px solid #B29999;
+}
+
+.form-group{
+  margin-top: 10px;
+}
+label{
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: normal;
+}
+.form-control{
+  font-size: 1.3em;
+  color: #080808;
+}
+textarea.form-control {
+    height: 135px;
+   /* margin-top: px;*/
+}
+
+.submit{
+  font-size: 1.1em;
+  float: right;
+  width: 150px;
+  background-color: transparent;
+  color: #fff;
+}
+
+
+/* Footer */
+.footer1{
+ background-color: white;
+ color: black;
+
+}
+.footer1 h2{
+	margin: 5px;
+	padding: 8px;
+	font-size: 25px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.footer1 a{
+	color: blue;
+}
+.footer1 a:hover{
+	color:black ;
+}
+
+.footer1 p{
+	margin: 5px;
+	padding-top: 2px;
+	padding-left: 10px;
+	font-size: 18px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.footer1 h2{margin: 5px;
+	padding: 5px;
+	border-bottom: 1px solid black;
+
+
+}
+/*==========================footer2===========================*/
+.footer2{
+
+	background-color: white;
+	color: black;
+
+}
+.footer2 p{
+	margin: 8px;
+	padding: 8px;
+	font-size: 16px;
+	font-family: "Times New Roman", Times, serif;
+
+}
+.myframegmap{
+
+    border: 3px solid white;
+    border-radius: 8px;
+    height: 130px;
+    width: 80%;
+    box-shadow: 0px 0px 3px 3px #e7e4dc;
+     overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+
+}
+h2 p{
+  color: black;
+}
